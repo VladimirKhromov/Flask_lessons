@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+         <base href="https://proproprogs.ru/">
+         <title>Про программирование</title>
+</head>
+<body>
+
+<ul>
+{% for user in users -%}
+    <li>{{user.name}}
+{% endfor -%}
+</ul>
+
+</body>
+</html>
